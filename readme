@@ -1,0 +1,32 @@
+# Smart Home System
+
+A Java console-based smart home simulation created for the Advanced Programming assignment. The application allows users to control virtual smart devices through a menu-driven interface. Users can view device status, turn devices on or off, and adjust thermostat temperature settings. The project demonstrates object-oriented programming principles including inheritance, encapsulation, polymorphism, and abstraction, alongside the implementation of the Factory Pattern and Command Pattern.
+
+## Running the Program
+
+Java JDK must be installed before running the application. To check Java is installed, run `java --version` and `javac --version` in the terminal or command prompt.
+
+### macOS
+
+Open Terminal, move into the project folder using `cd SmartHomeSystem`, compile the program using `javac *.java`, then run the application using `java Main`.
+
+### Windows
+
+Open Command Prompt or PowerShell, move into the project folder using `cd SmartHomeSystem`, compile the program using `javac *.java`, then run the application using `java Main`.
+
+### Linux
+
+Open Terminal, move into the project folder using `cd SmartHomeSystem`, compile the program using `javac *.java`, then run the application using `java Main`.
+
+## Project Files
+
+```text
+Main.java
+SmartDevice.java
+Light.java
+Thermostat.java
+DeviceFactory.java
+Command.java
+TurnOnCommand.java
+TurnOffCommand.java
+SmartHomeController.java
